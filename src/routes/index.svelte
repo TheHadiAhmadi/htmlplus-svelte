@@ -1,5 +1,6 @@
 <script>
     import {Dialog, DialogToggler, DialogHeader, DialogBody, DialogContent, DialogFooter} from '$lib/components'
+import Counter from '../lib/components/Counter.svelte';
 
     let open = false;
 
@@ -12,6 +13,7 @@
         <DialogHeader>Header</DialogHeader>
 
     <DialogBody>
+        <Counter/>
         Dialog Body
     </DialogBody>
     <DialogFooter>
